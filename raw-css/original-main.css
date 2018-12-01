@@ -368,9 +368,6 @@ footer h4[lang=ru]{
         width: 700px; 
         margin: 0 auto;    
     }
-    .content1 .row{
-        /* same as mobile default */
-    }
     .content2 .row{
         flex-direction: row;
         flex-wrap: wrap;

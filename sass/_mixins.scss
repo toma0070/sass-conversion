@@ -1,0 +1,39 @@
+@mixin blah{
+    
+        content: "";
+        position: absolute;
+        bottom: -1rem;
+        height: 1rem;
+        width: 30%;
+        background-color: $dark-blue;  
+}
+
+@mixin navstuff{
+    
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+}
+
+
+@mixin firstMediaQuery{
+    
+    @media all and (min-width:701px) and (max-width:900px){
+        @content;
+    }
+}
+
+@mixin secondMediaQuery{
+    
+    @media all and (min-width:901px) and (max-width: 1400px){
+        @content;
+    }
+}
+
+@mixin thirdMediaQuery{
+    
+    @media all and (min-width:1401px){
+        @content;
+    }
+    
+}
